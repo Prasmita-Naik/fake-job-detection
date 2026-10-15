@@ -19,7 +19,7 @@ Keep these files together:
 
 ```text
 fake_job_streamlit_app/
-├── app.py
+├── Fake_job.py
 ├── requirements.txt
 ├── fake_job_rnn.keras
 └── tokenizer.pkl
