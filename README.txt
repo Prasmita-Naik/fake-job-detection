@@ -9,7 +9,7 @@ Open the notebook and run all cells successfully through model training. Then ru
 - `fake_job_rnn.keras` — the trained Keras model
 - `tokenizer.pkl` — the fitted text tokenizer
 
-Keep these files in the same folder as `app.py`. The pickle file must come from a tokenizer you trust; never load pickle files from unknown sources.
+Keep these files in the same folder as `Fake_job.py`. The pickle file must come from a tokenizer you trust; never load pickle files from unknown sources.
 
 **Important:** Keras models are best saved as `.keras`, rather than pickling the whole model. This project uses pickle for the tokenizer.
 
@@ -27,13 +27,13 @@ fake_job_streamlit_app/
 
 ## 3. Install and run locally
 
-Open Notepad only to edit `app.py` if you wish. Save it as **All files** with the exact name `app.py`, not `app.py.txt`.
+Open Notepad only to edit `Fake_job.py` if you wish. Save it as **All files** with the exact name `Fake_job.py`, not `Fake_job.py.txt`.
 
 Open Command Prompt in this folder and run:
 
 ```bash
 python -m pip install -r requirements.txt
-python -m streamlit run app.py
+python -m streamlit run Fake_job.py
 ```
 
 A browser window should open with the website.
